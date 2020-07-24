@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        text-align: center;
+                     
+    }
+
+
+    .todo{
+        background-color: lightblue;
+        border-radius: 30%;
+        text-align: center;
+    }
+
+
+    .to{
+        background-color: lightpink;
+        border-radius: 50px;
+        font-display: bold ;
+        text-align: center;
+        
+    }
+
+    
+
+    .btn{
+        background-color: goldenrod;
+        border-radius: 50%;
+        font-display: bold ;
+        text-align: center;
+        
+
+    }
+  
+</style>
+<body>
+
+
+    
+        <img class="img" src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuTWuzJwj9cff5cCyT7UQUyr0M90OY5h1cSA&usqp=CAU alt="">;
+    
+   
+    <div>
+        
+
+        <ul>
+            <i><input class="to" placeholder="Enter todo" type="text" id="todo-item"></i>
+        </ul>
+        <i><button class="todo" onclick="addTodo()">Add Item</button></i>
+        <i><button class="todo" onclick="deleteAll()">Delete All</button></i>
+        
+    </div>
+    <div>
+        <ul id="list"></ul>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
